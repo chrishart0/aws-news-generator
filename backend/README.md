@@ -109,7 +109,7 @@ Tests are defined in the `tests` folder in this project. Use PIP to install the 
 ```bash
 backend$ pip install -r tests/requirements.txt --user
 # unit test
-backend$ python -m pytest tests/unit -v
+backend$ python3 -m pytest tests/unit -v
 # integration test, requiring deploying the stack first.
 # Create the env variable AWS_SAM_STACK_NAME with the name of the stack we are testing
 backend$ AWS_SAM_STACK_NAME=<stack-name> python -m pytest tests/integration -v
