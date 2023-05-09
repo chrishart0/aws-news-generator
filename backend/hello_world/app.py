@@ -121,6 +121,7 @@ def lambda_handler(event, context):
 
     # Ask AI to make summary
     # WARNING: ChatGPT can't take input this long. Need to figure out what to do about this.
+    # https://platform.openai.com/docs/api-reference
     # completion = openai.ChatCompletion.create(
     #     model="gpt-3.5-turbo", 
     #     messages = [
@@ -146,3 +147,5 @@ def lambda_handler(event, context):
 
 
 
+# Generate thumbnail
+# https://stablediffusionweb.com/#demo
